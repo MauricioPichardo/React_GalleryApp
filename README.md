@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project pulls photos from Flickr's API utiliing Axios.  Then leverages React to create a dynamic App that display the defined photos.  Has a few buttons that define a pre inserted value or a free form search option.
 
 ## Available Scripts
 

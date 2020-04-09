@@ -15,13 +15,44 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.naver {
+  width:80%;
+  margin:auto;
+  margin-bottom:2vh;
+}
+
+.naver button {
+  background-color: #438bbd;
+  font:6vh;
+  width:15%;
+  margin-right:auto;
+  margin-left:auto;
+  color: white;
+}
+
+.App-Container{
+  display: flex;
+  max-width:1000px;
+  align-self: center;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+li {
+  display:flex;
+}
+
+.photo-wrap{
+  max-width:300px;
+  display: flex;
 }
 
 .App-link {
