@@ -18,9 +18,9 @@ render() {
       <div className="naver">
           <Link  to={{
               pathname: "/sunsets"
-            }}  value="sunsets" ><button onClick="location.href=location.href">Sunsets</button></Link>
-          <Link to="/flowers"  value="sunsets"><button onClick="location.href=location.href">Flowers</button></Link>
-          <Link to="/Birds"  value="sunsets" ><button onClick="location.href=location.href">Birds</button></Link>
+            }}  value="sunsets" ><button onClick="/Sunsets">Sunsets</button></Link>
+          <Link to="/flowers"  value="sunsets"><button onClick="/Flowers">Flowers</button></Link>
+          <Link to="/Birds"  value="sunsets" ><button onClick="/Birds">Birds</button></Link>
 
       </div>
   );

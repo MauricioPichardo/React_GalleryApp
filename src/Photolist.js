@@ -8,15 +8,19 @@ import Photo from './Photo'
 
 const Photolist = props =>{
   const results = props.data.photos;
+  const title= props.data.queried;
   let photos =  results.map( photo =>(
-  <Photo url={photo} key={photo} />
+  <Photo url={`https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_m.jpg`} key={photo.id} />
 )
 );
 
   return(
-    <ul className="App-Container">
-      {photos}
-    </ul>
+    <div>
+    <h3>{title}</h3>
+      <ul className="App-Container" >
+        {photos}
+        </ul>
+    </div>
   )
 
 }

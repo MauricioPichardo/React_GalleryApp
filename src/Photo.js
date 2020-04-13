@@ -8,14 +8,14 @@ class Photo extends Component {
     super(props);
     this.state={
 
-    };
-  }
+    }}
+
 
 render() {
   return(
 
   <li className="photo-wrap">
-      <img src={this.props.url} key={this.props.url} alt="didn't load" />
+      <img src={this.props.url} alt="didn't load" />
   </li>
 );
 }}
